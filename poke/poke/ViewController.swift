@@ -8,6 +8,7 @@
 
 import UIKit
 import QuartzCore
+import AVFoundation
 
 let defaults = UserDefaults.standard
 
@@ -22,6 +23,18 @@ let copyWin = defaults.array(forKey: "savedWin")  as? [Int] ?? [Int]()
 let setWidth = Int(screenSize.width)
 let setHeight = Int(screenSize.width)
 let shrinkConst = (setWidth-80)/10
+
+let popSound = URL(fileURLWithPath: Bundle.main.path(forResource: "btn_click_sound", ofType: "mp3")!)
+var audioPlayer = AVAudioPlayer()
+
+//@IBAction func PianoC(sender: AnyObject) {
+//    do {
+//        audioPlayer = try AVAudioPlayer(contentsOf: popSound)
+//        audioPlayer.play()
+//    } catch {
+//        // couldn't load file :(
+//    }
+//}
 
 extension CGFloat
 {
@@ -50,6 +63,12 @@ class ViewController: UIViewController
     @IBOutlet weak var myButton: UIButton!
     @IBAction func startButton(_ sender: Any)
     {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: popSound)
+            audioPlayer.play()
+        } catch {
+            // couldn't load file :(
+        }
         if(myButton.titleLabel!.text == "Win!")
         {
             counter[0] = 10

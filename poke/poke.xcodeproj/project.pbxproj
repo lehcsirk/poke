@@ -44,6 +44,7 @@
 		7ECC37BC221548780083E5FD /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC379E221548780083E5FD /* Icon-60.png */; };
 		7ECC37BD221548780083E5FD /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC379F221548780083E5FD /* Icon-100.png */; };
 		7ECC37BE221548780083E5FD /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC37A0221548780083E5FD /* Icon-57.png */; };
+		7EFDD65E22160DE30056CEFF /* btn_click_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EFDD65D22160DE30056CEFF /* btn_click_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		7ECC379E221548780083E5FD /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60.png"; path = "../../../Downloads/appiconmaker.co_ios (3)/Icon-60.png"; sourceTree = "<group>"; };
 		7ECC379F221548780083E5FD /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-100.png"; path = "../../../Downloads/appiconmaker.co_ios (3)/Icon-100.png"; sourceTree = "<group>"; };
 		7ECC37A0221548780083E5FD /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57.png"; path = "../../../Downloads/appiconmaker.co_ios (3)/Icon-57.png"; sourceTree = "<group>"; };
+		7EFDD65D22160DE30056CEFF /* btn_click_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = btn_click_sound.mp3; path = ../../../Downloads/btn_click_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				7ECC375C22150FC80083E5FD /* Assets.xcassets */,
 				7ECC375E22150FC80083E5FD /* LaunchScreen.storyboard */,
 				7ECC376122150FC80083E5FD /* Info.plist */,
+				7EFDD65D22160DE30056CEFF /* btn_click_sound.mp3 */,
 				7ECC3794221548770083E5FD /* Icon-16.png */,
 				7ECC3791221548770083E5FD /* Icon-20.png */,
 				7ECC3787221548760083E5FD /* Icon-29.png */,
@@ -339,6 +342,7 @@
 				7ECC37B6221548780083E5FD /* Icon-55.png in Resources */,
 				7ECC37B2221548780083E5FD /* Icon-16.png in Resources */,
 				7ECC37B0221548780083E5FD /* Icon-120.png in Resources */,
+				7EFDD65E22160DE30056CEFF /* btn_click_sound.mp3 in Resources */,
 				7ECC37BE221548780083E5FD /* Icon-57.png in Resources */,
 				7ECC37AE221548780083E5FD /* Icon-88.png in Resources */,
 				7ECC37B7221548780083E5FD /* Icon-128.png in Resources */,
